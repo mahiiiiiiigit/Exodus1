@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+
+# Build artifacts
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables & secrets (CRITICAL)
+.env
+*.env
+.env.*
+!.env.example
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+
+# Databases & local user uploads
+*.sqlite3
+backend/data/
+backend/uploads/
+
+# OS artifacts
+.DS_Store
+Thumbs.db

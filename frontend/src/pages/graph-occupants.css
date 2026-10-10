@@ -1,0 +1,9 @@
+.graph-overlay.with-occupants .graph-node{opacity:.24}
+.graph-overlay .graph-occupant-marker{pointer-events:all;filter:drop-shadow(0 0 3px #167cc9);transition:transform 250ms linear}
+.graph-overlay .occupant-marker-halo{fill:#258fea;fill-opacity:.16;stroke:#fff;stroke-width:.0015;vector-effect:non-scaling-stroke}
+.graph-overlay .occupant-marker-head{fill:#0877d1;stroke:#fff;stroke-width:.0015;vector-effect:non-scaling-stroke}
+.graph-overlay .occupant-marker-body{fill:none;stroke:#0877d1;stroke-width:.004;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.graph-overlay .graph-occupant-marker.evacuated .occupant-marker-head,.graph-overlay .graph-occupant-marker.evacuated .occupant-marker-body{fill:#228957;stroke:#228957}
+.graph-overlay .graph-occupant-marker.trapped .occupant-marker-head,.graph-overlay .graph-occupant-marker.trapped .occupant-marker-body{fill:#c83e3e;stroke:#c83e3e}
+.occupant-destination-note{margin:10px 0 0;color:#327a5c;font-size:10px}
+.occupant-unreachable-reason{display:block;max-width:260px;margin-top:4px;color:#ac5149;line-height:1.4}
